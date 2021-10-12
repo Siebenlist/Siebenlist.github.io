@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 47px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 35px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.nav-cont {
+    text-decoration: none;
+    color: #000;
+    padding-right: 2.1em;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icons a {
+    padding: 1em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 150px 300px 300px;
+    grid-template-areas: 
+    "subtitle"
+    "description"
+    "showcase_1"
+    "showcase_2";
+    justify-items: center;
+    margin: 3em 20em;
+}
+
+.container h5{
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle{
+    grid-area: subtitle;
+    padding-bottom: 5px;
+}
+
+.description{
+    grid-area: description;
+    text-align: center;
+}
+
+.description p{
+    font-size: 18px;
+}
+
+.showcase_1{
+    grid-area: showcase_1;
+    margin: 2em 0;
+}
+
+.showcase_2{
+    grid-area: showcase_2;
+    margin: 5em 0;
+}
+
+.footer {
+    background-color: #000;
+    height: 85px;
+    width: 100%;
+    margin-top: 10em;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 1280px) {
+    .container{
+        grid-template-columns: 625px;
+        padding: 3em 0;
+    }
+
+    .footer p{
+        text-align: center;
+    }
+}

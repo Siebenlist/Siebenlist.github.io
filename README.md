@@ -1,0 +1,1 @@
+This is my first finished website i made for a friend who is a emote artist mainly focused on doing twitch emotes and badges.

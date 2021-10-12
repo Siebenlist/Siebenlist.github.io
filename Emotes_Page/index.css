@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    background-image: url(../Media/pink_sharingan.png);
+    background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position-x: 46rem;
+    background-position-y: 25rem;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 47px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 35px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.nav-cont {
+    text-decoration: none;
+    color: #000;
+    padding-right: 2.1em;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-icons a {
+    padding: 1em;
+}
+
+.subtitulo{
+    padding: 60px 0;
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 50%;
+    display: grid;
+    row-gap: 3em;
+    grid-template-columns: auto 200px auto;
+    grid-template-rows: 300px 300px 300px;
+    padding: 50px 400px;
+}
+
+.container img{
+    height: 300px;
+    width: 450px;
+}
+
+.choco{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.lobito{
+    grid-column: 3/4;
+    grid-row: 1/2
+}
+
+.sorrow{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.eva{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.fareuk{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.stipin{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.footer {
+    background-color: #000;
+    height: 85px;
+    width: 100%;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .container img{
+        height: 300px;
+        width: 450px;
+    }
+
+    body{
+        background-attachment: local;
+        background-position-x: 26rem;
+        background-position-y: 10rem;
+    }
+
+    .container{
+        padding: 50px 80px;
+    }
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 47px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 35px;
+}
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.nav-cont {
+    text-decoration: none;
+    color: #000;
+    padding-right: 2.1em;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-icons a {
+    padding: 1em;
+}
+
+.imagen img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 300px auto;
+    justify-content: center;
+    padding-top: 9em;
+    padding-bottom: 12.3em;
+}
+
+.titulo {
+    margin-left: 3em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.parrafo {
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #000;
+    height: 85px;
+    width: 100%;
+}
+
+.footer p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 35px;
+}
+
